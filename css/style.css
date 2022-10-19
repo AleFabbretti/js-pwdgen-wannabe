@@ -1,0 +1,36 @@
+body{
+    background-color: #252525;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.box{
+    border: 2px solid black;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+.box:hover{
+    background-color: white;
+    color: black;
+}
+
+h2:hover {
+    text-decoration: underline;
+    scale: 110%;
+    color: green;
+    transition: scale 1s
+}
+
+.box:hover h1{
+    display: none;
+}
