@@ -12,3 +12,5 @@ const password = `${firstName}${lastName}${favouriteColor}76`;
 
 console.log(password);
 
+//stampo sulla pagina la password generata
+document.getElementById("password").innerHTML = password;
